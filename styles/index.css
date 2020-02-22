@@ -1,8 +1,10 @@
 .header {
     width:100%; 
     max-width: 1400px; 
-
-
+    margin: 0 auto; 
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
@@ -13,4 +15,11 @@
 .logo-name {
     width: 143px; 
     height: 29px; 
+}
+
+.sign-in-button {
+    color: #173A56; 
+    border-color: #BCD0E5;
+    width: 102px; 
+    height: 46px; 
 }
