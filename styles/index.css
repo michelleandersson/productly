@@ -18,8 +18,35 @@
 }
 
 .sign-in-button {
+    background-color: #ffffff;
     color: #173A56; 
     border-color: #BCD0E5;
+    border-style: solid;
+    border-radius: 5px;
     width: 102px; 
     height: 46px; 
+    font-family: poppins;
+    font-size: 16px;
+    position: absolute;
+    left: 73.5%;
+    right: 19.21%;
+    top: 19.23%;
+    bottom: 21.79%;
+}
+
+.sign-up-button {
+    position: absolute;
+    left: 81.79%;
+    right: 10.36%;
+    top: 19.23%;
+    bottom: 21.79%;
+    width: 110px;
+    height: 46px;
+    background-color: #FF9900;
+    color: #ffffff;
+    font-family: poppins;
+    font-size: 16px;
+    border-radius: 5px;
+    border-color: none;
+    border-style: none;
 }
