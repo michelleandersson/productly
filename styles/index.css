@@ -1,20 +1,42 @@
+body {
+    font-family: poppins;
+}
+
 .header {
     width:100%; 
     max-width: 1400px; 
     margin: 0 auto; 
+    padding-left: 15px;
+    padding-right: 15px;
     display: flex; 
     justify-content: space-between;
     align-items: center;
+    box-sizing: border-box;
 }
 
-.logo {
-    width: 30px; 
-    height: 30px; 
+.full-logo {
+    display: block; 
+    width: 185px; 
+    height: 32px;
 }
 
-.logo-name {
-    width: 143px; 
-    height: 29px; 
+.nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav>li {
+    margin-left: 15px;
+    font-size: 14px;
+   
+}
+
+.nav>li>a {
+    color: #2F281E; 
+    text-decoration: none;
+    font-weight: 400;
 }
 
 .sign-in-button {
@@ -25,28 +47,30 @@
     border-radius: 5px;
     width: 102px; 
     height: 46px; 
-    font-family: poppins;
     font-size: 16px;
-    position: absolute;
+    font-weight: 600;
+    padding: 10px 15px; 
+    /*position: absolute;
     left: 73.5%;
     right: 19.21%;
     top: 19.23%;
-    bottom: 21.79%;
+    bottom: 21.79%; */
 }
 
 .sign-up-button {
-    position: absolute;
+    /*position: absolute;
     left: 81.79%;
     right: 10.36%;
     top: 19.23%;
-    bottom: 21.79%;
+    bottom: 21.79%;*/
     width: 110px;
     height: 46px;
     background-color: #FF9900;
     color: #ffffff;
-    font-family: poppins;
     font-size: 16px;
+    font-weight: 600;
     border-radius: 5px;
     border-color: none;
     border-style: none;
+    padding: 10px 15px; 
 }
