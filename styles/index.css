@@ -78,10 +78,19 @@ body {
     text-decoration: underline;
 }
 
+.header-info {
+    display: block;
+    width: 100%; 
+    max-width: 518px;
+    margin-left: 145px;
+    padding-top: 113px;
+}
+
 .header-info-title {
     font-weight: 700;
     font-size: 44px;
     color: #2F281E; 
+    line-height: 1.2;
 
 }
 
@@ -89,6 +98,8 @@ body {
     font-weight: 400;
     font-size: 18px;
     color: #544837;
+    margin-top: 30px;
+    line-height: 1.5;
 }
 
 .get-started-button {
@@ -101,6 +112,7 @@ body {
     border-radius: 5px;
     border: none;
     margin-right: 30px;
+    margin-top: 30px;
 }
 
 .get-started-button:hover { 
@@ -114,21 +126,22 @@ body {
     font-size: 16px;
     border: none; 
     text-decoration: underline;
+    margin-top: 30px; 
 }
 
 .watch-video-button:hover { 
     color: #173A56; 
 }
 
-.header-info {
-    width: 100%; 
-    max-width: 518px;
-    margin-left: 145px;
-    margin-top: 113px;
-}
+.header-image {
+    /*position: relative;
+    width: 605px; 
+    height: 496px; 
+    margin-top: -400px;
+    margin-left: 800px;*/
+    display: block;
+    float: right;
+    margin-top: -400px; 
+    margin-right: 150px;
 
-.header-info-title {
-    line-height: 1.2;
-    font-weight: 700;
-    font-size: 44px;
 }
