@@ -79,7 +79,7 @@ body {
 }
 
 .header-info {
-    display: block;
+    display: inline-block;
     width: 100%; 
     max-width: 518px;
     margin-left: 145px;
@@ -134,14 +134,10 @@ body {
 }
 
 .header-image {
-    /*position: relative;
     width: 605px; 
     height: 496px; 
-    margin-top: -400px;
-    margin-left: 800px;*/
-    display: block;
     float: right;
-    margin-top: -400px; 
+    margin-top: 30px; 
     margin-right: 150px;
 
 }
