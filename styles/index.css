@@ -8,6 +8,7 @@ body {
     margin: 0 auto; 
     padding-left: 15px;
     padding-right: 15px;
+    padding-top: 20px;
     display: flex; 
     justify-content: space-between;
     align-items: center;
@@ -72,5 +73,5 @@ body {
     border-radius: 5px;
     border-color: none;
     border-style: none;
-    padding: 10px 15px; 
+    padding: 10px 15px;  
 }
