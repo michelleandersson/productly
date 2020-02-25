@@ -299,4 +299,23 @@ body {
     margin-right: 30px;
     margin-top: 38px;
 }
+
+.marketers {
+    display: inline-flex;
+   
+}
+
+.marketers-content {
+    width: 486px;
+    margin-top: 143px;
+    margin-left: 147px;
+}
+
+.marketers-img {
+    width: 542px;
+    height: 609px;
+    margin-top: 104px;
+    margin-left: 82px;
+    padding-top: 104px;
+}
  
