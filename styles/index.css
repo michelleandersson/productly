@@ -225,4 +225,50 @@ body {
 .features-button:hover {
     text-decoration: underline;
 }
+
+.design-pro {
+    display: inline-flex;
+}
+
+.design-pro-content {
+    width: 486px; 
+    height: 531px; 
+    margin-left: 145px; 
+    margin-top: 246px; 
+}
+
+.design-pro-text-top {
+    font-weight: 500;
+    font-size: 16px;
+    color: #544837;
+}
+
+.design-pro-header {
+    font-weight: 700;
+    font-size: 36px;
+    color: #2F281E;
+}
+
+.design-pro-text {
+    line-height: 1.6;
+    font-weight: 500;
+    font-size: 16px;
+    color: #544837;
+    margin-top: 12px;
+}
+
+.design-pro-subheading {
+    line-height: 1.6;
+    font-weight: 700;
+    font-size: 16px;
+    color: #2F281E;
+    margin-top: 30px; 
+}
+
+.design-pro-img {
+    width: 520px; 
+    height: 574px;
+    margin-top: 210px;
+    margin-left: 104px;
+}
  
