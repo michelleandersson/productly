@@ -79,14 +79,22 @@ body {
 }
 
 .header-info {
-    display: inline-block;
-    width: 100%; 
-    max-width: 518px;
+    display: inline-flex;
+    width: 1126px; 
+    height: 496px;
+    margin-top: 30px;
     margin-left: 145px;
-    padding-top: 113px;
+}
+
+.header-info-content {
+    width: 518px; 
+    height: 331px; 
+    margin-top: 181px;
+    box-sizing: border-box;
 }
 
 .header-info-title {
+    width: 518px;
     font-weight: 700;
     font-size: 44px;
     color: #2F281E; 
@@ -135,10 +143,9 @@ body {
 
 .header-image {
     width: 605px; 
-    height: 496px; 
-    float: right;
-    margin-top: 30px; 
-    margin-right: 150px;
+    height: 496px;  
+    margin-right: 129px;
+    margin-top: 128px;
 
 }
 
