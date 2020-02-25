@@ -240,19 +240,19 @@ body {
     margin-top: 246px; 
 }
 
-.design-pro-text-top {
+.main-text-top {
     font-weight: 500;
     font-size: 16px;
     color: #544837;
 }
 
-.design-pro-header {
+.main-header {
     font-weight: 700;
     font-size: 36px;
     color: #2F281E;
 }
 
-.design-pro-text {
+.main-text {
     line-height: 1.6;
     font-weight: 500;
     font-size: 16px;
@@ -260,7 +260,7 @@ body {
     margin-top: 12px;
 }
 
-.design-pro-subheading {
+.main-subheading {
     line-height: 1.6;
     font-weight: 700;
     font-size: 16px;
@@ -273,5 +273,30 @@ body {
     height: 574px;
     margin-top: 210px;
     margin-left: 104px;
+}
+
+.product-manager {
+    display: inline-flex;
+}
+
+.product-manager-img {
+    width: 535px; 
+    height: 521px;
+    margin-top: 101px;
+    margin-left: 144px;
+}
+
+.product-manager-content {
+    width: 486px;
+    height: 427px;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+.pm-icon { /*fix alignment to text*/
+    width: 35px;
+    height: 35px; 
+    margin-right: 30px;
+    margin-top: 38px;
 }
  
