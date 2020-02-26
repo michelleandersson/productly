@@ -7,9 +7,6 @@ body {
     height: 78px;
     margin-top: 20px;
     display: inline-flex; 
-    /*justify-content: space-between;
-    align-items: center;
-    box-sizing: border-box;*/
 }
 
 .full-logo { 
@@ -41,6 +38,7 @@ body {
 
 .nav>li>a:hover {
     text-decoration: underline;
+    background-color: rgba(77, 142, 255, 0.514);
 }
 
 .sign-in-button {
@@ -57,6 +55,7 @@ body {
 
 .sign-in-button:hover {
     text-decoration: underline;
+    background-color: rgba(77, 142, 255, 0.514);
 }
 
 .sign-up-button {
@@ -73,6 +72,7 @@ body {
 
 .sign-up-button:hover {
     text-decoration: underline;
+    background-color: rgba(77, 142, 255, 0.514);
 }
 
 .header-info {
@@ -121,6 +121,7 @@ body {
 
 .get-started-button:hover { 
     text-decoration: underline;
+    background-color: rgba(77, 142, 255, 0.514);
 }
 
 .watch-video-button { 
@@ -141,6 +142,7 @@ body {
 
 .watch-video-button:hover { 
     color: #173A56; 
+    background-color: rgba(77, 142, 255, 0.514);
 }
 
 .header-image {
@@ -233,6 +235,7 @@ body {
 
 .features-button:hover {
     text-decoration: underline;
+    background-color: rgba(77, 142, 255, 0.514);
 }
 
 .design-pro {
@@ -355,6 +358,7 @@ body {
 
 .footer-quicklinks>li>a:hover {
     text-decoration: underline;
+    background-color: rgba(77, 142, 255, 0.514);
 }
 
 .footer-legal {
@@ -374,6 +378,7 @@ body {
 
 .footer-legal>li>a:hover {
     text-decoration: underline;
+    background-color: rgba(77, 142, 255, 0.514);
 }
 
 .footer-sign-up { 
@@ -404,5 +409,6 @@ body {
 
  .footer-sign-up-button:hover {
      text-decoration: underline;
+     background-color: rgba(77, 142, 255, 0.514);
  }
  
